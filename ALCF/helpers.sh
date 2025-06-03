@@ -234,7 +234,7 @@ get_training_args() {
         "--eval-iters=${EVAL_ITERS:-20}"
         "--save-interval=${SAVE_INTERVAL:-50}"
         "--log-interval=${LOG_INTERVAL:-1}"
-        "--save=${SAVE:-${CKPT_DIR}}"
+        "--save=''"
         "--load=${LOAD:-${CKPT_DIR}}"
         "--seq-length=${SEQ}"
         "--num-layers=${NLAYERS}"
